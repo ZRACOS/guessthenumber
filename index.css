@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+#bod {
+  background-color: #25323c;
+  background-image: linear-gradient(to left, #25323c, white);
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainheader {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 50px;
+  word-spacing: 15px;
+  color: darkslategray;
+}
+
+.mainheader:hover {
+  color: black;
+}
+
+.cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.b {
+  position: absolute;
+  font-size: 1.4rem;
+  color: aliceblue;
+  top: 2rem;
+  right: 2rem;
+}
+
+.again {
+  height: 50px;
+  width: 150px;
+  margin-left: 95px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.q {
+  height: 100px;
+  width: 100px;
+  border: 3px dotted white;
+  border-radius: 30%;
+  margin-left: 700px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.secondary {
+  display: flex;
+  position: relative;
+}
+
+.ys {
+  font-size: 2rem;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.hs {
+  font-size: 2rem;
+  position: absolute;
+  left: 200px;
+  top: 300px;
+}
+
+.sg {
+  font-size: 2rem;
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+.num {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  right: 290px;
+  top: 100px;
+  border: 5px solid black;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.c {
+  height: 50px;
+  width: 80px;
+  position: absolute;
+  right: 350px;
+  top: 250px;
+  border-left: 4px solid black;
+  border-radius: 10px;
+  font-size: medium;
+}
